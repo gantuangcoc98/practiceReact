@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import ColorSequence from './color-sequence';
+import CompleteLyrics from './router-react-exercise';
+import Patotits from './patotits-move';
+import E_Bingo from './e-bingo/eBingo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ColorSequence /> */}
+    {/* <Patotits /> */}
+    {/* <CompleteLyrics /> */}
+    <E_Bingo />
   </React.StrictMode>
 );
 
